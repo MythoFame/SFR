@@ -4,9 +4,9 @@
 > This mod has been archived. Stay tuned for the next big thing!
 
 [![Discord](https://img.shields.io/discord/978692248013275287?style=flat-square&logo=discord&label=Discord)](https://discord.gg/qKn8K8bQc9)
-[![Activity](https://img.shields.io/github/commit-activity/w/Odex64/SFR?style=flat-square&logo=Github&label=Activity)](https://github.com/Odex64/SFR/activity)
-[![Stars](https://img.shields.io/github/stars/Odex64/SFR?style=flat-square&logo=Github&label=Stars)](https://github.com/Odex64/SFR/stargazers)
-[![Build](https://img.shields.io/github/actions/workflow/status/Odex64/SFR/build.yml?style=flat-square&logo=github&label=Build)](https://github.com/Odex64/SFR/actions/workflows/build.yml)
+[![Activity](https://img.shields.io/github/commit-activity/w/MythoFrame/SFR?style=flat-square&logo=Github&label=Activity)](https://github.com/MythoFrame/SFR/activity)
+[![Stars](https://img.shields.io/github/stars/MythoFrame/SFR?style=flat-square&logo=Github&label=Stars)](https://github.com/MythoFrame/SFR/stargazers)
+[![Build](https://img.shields.io/github/actions/workflow/status/MythoFrame/SFR/build.yml?style=flat-square&logo=github&label=Build)](https://github.com/MythoFrame/SFR/actions/workflows/build.yml)
 
 ---
 
@@ -41,7 +41,7 @@ Enjoy new music, sounds, triggers, gore effects, increased slots, special items,
 
 ## 📂 Download
 
-You can download the latest version of Superfighters Redux [here](https://github.com/Odex64/SFR/releases).
+You can download the latest version of Superfighters Redux [here](https://github.com/MythoFrame/SFR/releases).
 
 ## ⚙️ Installation
 
