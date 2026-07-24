@@ -1,4 +1,4 @@
-Copyright (C) MythoLogic Interactive 2022.
+Copyright (C) MythoLogic Interactive, MythoFame, Legacy SFR Team - 2022.
 
 Superfighters Deluxe, a game by MythoLogic Interactive.
 Superfighters Redux, a modification to the game by the community.
