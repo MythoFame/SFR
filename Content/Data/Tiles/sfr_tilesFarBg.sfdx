@@ -1,0 +1,333 @@
+defaultTile(DefaultTile)
+{
+	drawCategory = FBG;
+	mainLayer = 0;
+	material.destroyEffect = none;
+	material.destroySound = none;
+	material.blockExplosions = false;
+	fixture()
+	{
+		collisionGroup = none;
+		blockFire = false;
+	}
+	colorPalette = BG;
+	sizeable = A;
+	kickable = false;
+	punchable = false;
+	projectileHit = false;
+	doTakeDamage.Fire = false;
+	type = Static;
+	material.resistance.fire.modifier = 0;
+}
+Tile(FarBgBlimp00B)
+{
+	sizeable = N;
+}
+Tile(FarBgBridge00){}
+Tile(FarBgBuilding03A){}
+Tile(FarBgBuilding03B){}
+Tile(FarBgBuilding03C){}
+Tile(FarBgBuilding03D){}
+Tile(FarBgBuilding03E){}
+Tile(FarBgBuilding03F){}
+Tile(FarBgBuilding03G){}
+Tile(FarBgBuilding03H){}
+Tile(FarBgBuilding03I){}
+Tile(FarBgBuilding03J){}
+Tile(FarBgBuilding03K){}
+Tile(FarBgBuilding03L){}
+Tile(FarBgFog00){}
+Tile(FarBgGradientBlue00A){}
+Tile(FarBgGradientBlue01A){}
+Tile(FarBgGradientBlue02A){}
+Tile(FarBgGradientCrimson00A){}
+Tile(FarBgGradientCrimson01A){}
+Tile(FarBgGradientCrimson02A){}
+Tile(FarBgGradientGreen00A){}
+Tile(FarBgGradientGreen01A){}
+Tile(FarBgGradientGreen02A){}
+Tile(FarBgGradientNavy00A){}
+Tile(FarBgGradientNavy01A){}
+Tile(FarBgGradientNavy02A){}
+Tile(FarBgGradientPink00A){}
+Tile(FarBgGradientPink01A){}
+Tile(FarBgGradientPink02A){}
+Tile(FarBgGradientPurple00A){}
+Tile(FarBgGradientPurple01A){}
+Tile(FarBgGradientPurple02A){}
+Tile(FarBgGradientShadow00A){}
+Tile(FarBgGradientShadow01A){}
+Tile(FarBgGradientShadow02A){}
+Tile(FarBgGradientWhite00A){}
+Tile(FarBgGradientWhite01A){}
+Tile(FarBgGradientWhite02A){}
+Tile(FarBgGradientYellow00A){}
+Tile(FarBgGradientYellow01A){}
+Tile(FarBgGradientYellow02A){}
+Tile(FarBgLightRadiusBlue00A){}
+Tile(FarBgLightRadiusBlue01A){}
+Tile(FarBgLightRadiusBlue02A){}
+Tile(FarBgLightRadiusBlue03A){}
+Tile(FarBgLightRadiusCrimson00A){}
+Tile(FarBgLightRadiusCrimson01A){}
+Tile(FarBgLightRadiusCrimson02A){}
+Tile(FarBgLightRadiusCrimson03A){}
+Tile(FarBgLightRadiusGreen00A){}
+Tile(FarBgLightRadiusGreen01A){}
+Tile(FarBgLightRadiusGreen02A){}
+Tile(FarBgLightRadiusGreen03A){}
+Tile(FarBgLightRadiusNavy00A){}
+Tile(FarBgLightRadiusNavy01A){}
+Tile(FarBgLightRadiusNavy02A){}
+Tile(FarBgLightRadiusNavy03A){}
+Tile(FarBgLightRadiusPink00A){}
+Tile(FarBgLightRadiusPink01A){}
+Tile(FarBgLightRadiusPink02A){}
+Tile(FarBgLightRadiusPink03A){}
+Tile(FarBgLightRadiusPurple00A){}
+Tile(FarBgLightRadiusPurple01A){}
+Tile(FarBgLightRadiusPurple02A){}
+Tile(FarBgLightRadiusPurple03A){}
+Tile(FarBgLightRadiusShadow00A){}
+Tile(FarBgLightRadiusShadow01A){}
+Tile(FarBgLightRadiusShadow02A){}
+Tile(FarBgLightRadiusShadow03A){}
+Tile(FarBgLightRadiusWhite00A){}
+Tile(FarBgLightRadiusWhite01A){}
+Tile(FarBgLightRadiusWhite02A){}
+Tile(FarBgLightRadiusWhite03A){}
+Tile(FarBgLightRadiusYellow00A){}
+Tile(FarBgLightRadiusYellow01A){}
+Tile(FarBgLightRadiusYellow02A){}
+Tile(FarBgLightRadiusYellow03A){}
+Tile(FarBgMountains01A){}
+Tile(FarBgMountains01B){}
+Tile(FarBgMountains01C){}
+Tile(FarBgMountains01D){}
+Tile(FarBgWallDarkBigRound00A){}
+Tile(FarBgWallDarkOutline00A){}
+Tile(FarBgWallDarkPixel00A){}
+Tile(FarBgWallDarkRound00A){}
+Tile(FarBgWallDarkShade00A){}
+Tile(FarBgWallDarkShade00B){}
+Tile(FarBgWallDarkShade00C){}
+Tile(FarBgWallDarkShade00D){}
+Tile(FarBgWallDarkShade00E){}
+Tile(FarBgWallDarkShade00F){}
+Tile(FarBgWallDarkShade00G){}
+Tile(FarBgWallDarkShade00H){}
+Tile(FarBgWallDarkShade00I){}
+Tile(FarBgWallDarkShadeOutline00A){}
+Tile(FarBgWallDarkShadeOutline00B){}
+Tile(FarBgWallDarkShadeOutline00C){}
+Tile(FarBgWallDarkShadeOutline00E){}
+Tile(FarBgWallDarkShadeOutline00F){}
+Tile(FarBgWallDarkShadeOutline00G){}
+Tile(FarBgWallLightBigRound00A){}
+Tile(FarBgWallLightOutline00A){}
+Tile(FarBgWallLightPixel00A){}
+Tile(FarBgWallLightRound00A){}
+Tile(FarBgWallLightShade00A){}
+Tile(FarBgWallLightShade00B){}
+Tile(FarBgWallLightShade00C){}
+Tile(FarBgWallLightShade00D){}
+Tile(FarBgWallLightShade00E){}
+Tile(FarBgWallLightShade00F){}
+Tile(FarBgWallLightShade00G){}
+Tile(FarBgWallLightShade00H){}
+Tile(FarBgWallLightShade00I){}
+Tile(FarBgWallLightShadeOutline00A){}
+Tile(FarBgWallLightShadeOutline00B){}
+Tile(FarBgWallLightShadeOutline00C){}
+Tile(FarBgWallLightShadeOutline00E){}
+Tile(FarBgWallLightShadeOutline00F){}
+Tile(FarBgWallLightShadeOutline00G){}
+Tile(FarBgWallMidBigRound00A){}
+Tile(FarBgWallMidOutline00A){}
+Tile(FarBgWallMidPixel00A){}
+Tile(FarBgWallMidRound00A){}
+Tile(FarBgWallMidShade00A){}
+Tile(FarBgWallMidShade00B){}
+Tile(FarBgWallMidShade00C){}
+Tile(FarBgWallMidShade00D){}
+Tile(FarBgWallMidShade00E){}
+Tile(FarBgWallMidShade00F){}
+Tile(FarBgWallMidShade00G){}
+Tile(FarBgWallMidShade00H){}
+Tile(FarBgWallMidShade00I){}
+Tile(FarBgWallMidShadeOutline00A){}
+Tile(FarBgWallMidShadeOutline00B){}
+Tile(FarBgWallMidShadeOutline00C){}
+Tile(FarBgWallMidShadeOutline00E){}
+Tile(FarBgWallMidShadeOutline00F){}
+Tile(FarBgWallMidShadeOutline00G){}
+
+// Foreground
+defaultTile(DefaultTile)
+{
+	drawCategory = FG;
+}
+Tile(FgDamage00A){ colorPalette = BG; }
+Tile(FgDamage00B){ colorPalette = BG; }
+Tile(FgDamage00C){ colorPalette = BG; }
+Tile(FgDamage00D){ colorPalette = BG; }
+Tile(FgDamage01A){ colorPalette = BG; }
+Tile(FgDamage01B){ colorPalette = BG; }
+Tile(FgDamage01C){ colorPalette = BG; }
+Tile(FgDamage01D){ colorPalette = BG; }
+Tile(FgGradientBlue00A){}
+Tile(FgGradientBlue01A){}
+Tile(FgGradientBlue02A){}
+Tile(FgGradientCrimson00A){}
+Tile(FgGradientCrimson01A){}
+Tile(FgGradientCrimson02A){}
+Tile(FgGradientGreen00A){}
+Tile(FgGradientGreen01A){}
+Tile(FgGradientGreen02A){}
+Tile(FgGradientNavy00A){}
+Tile(FgGradientNavy01A){}
+Tile(FgGradientNavy02A){}
+Tile(FgGradientPink00A){}
+Tile(FgGradientPink01A){}
+Tile(FgGradientPink02A){}
+Tile(FgGradientPurple00A){}
+Tile(FgGradientPurple01A){}
+Tile(FgGradientPurple02A){}
+Tile(FgGradientShadow00A){}
+Tile(FgGradientShadow01A){}
+Tile(FgGradientShadow02A){}
+Tile(FgGradientWhite00A){}
+Tile(FgGradientWhite01A){}
+Tile(FgGradientWhite02A){}
+Tile(FgGradientYellow00A){}
+Tile(FgGradientYellow01A){}
+Tile(FgGradientYellow02A){}
+Tile(FgLightRadiusBlue00A){}
+Tile(FgLightRadiusBlue01A){}
+Tile(FgLightRadiusBlue02A){}
+Tile(FgLightRadiusBlue03A){}
+Tile(FgLightRadiusCrimson00A){}
+Tile(FgLightRadiusCrimson01A){}
+Tile(FgLightRadiusCrimson02A){}
+Tile(FgLightRadiusCrimson03A){}
+Tile(FgLightRadiusGreen00A){}
+Tile(FgLightRadiusGreen01A){}
+Tile(FgLightRadiusGreen02A){}
+Tile(FgLightRadiusGreen03A){}
+Tile(FgLightRadiusNavy00A){}
+Tile(FgLightRadiusNavy01A){}
+Tile(FgLightRadiusNavy02A){}
+Tile(FgLightRadiusNavy03A){}
+Tile(FgLightRadiusPink00A){}
+Tile(FgLightRadiusPink01A){}
+Tile(FgLightRadiusPink02A){}
+Tile(FgLightRadiusPink03A){}
+Tile(FgLightRadiusPurple00A){}
+Tile(FgLightRadiusPurple01A){}
+Tile(FgLightRadiusPurple02A){}
+Tile(FgLightRadiusPurple03A){}
+Tile(FgLightRadiusShadow00A){}
+Tile(FgLightRadiusShadow01A){}
+Tile(FgLightRadiusShadow02A){}
+Tile(FgLightRadiusShadow03A){}
+Tile(FgLightRadiusWhite00A){}
+Tile(FgLightRadiusWhite01A){}
+Tile(FgLightRadiusWhite02A){}
+Tile(FgLightRadiusWhite03A){}
+Tile(FgLightRadiusYellow00A){}
+Tile(FgLightRadiusYellow01A){}
+Tile(FgLightRadiusYellow02A){}
+Tile(FgLightRadiusYellow03A){}
+Tile(FgWallDarkBigRound00A){ colorPalette = BG; }
+Tile(FgWallDarkOutline00A){ colorPalette = BG; }
+Tile(FgWallDarkPixel00A){ colorPalette = BG; }
+Tile(FgWallDarkRound00A){ colorPalette = BG; }
+Tile(FgWallDarkShade00A){ colorPalette = BG; }
+Tile(FgWallDarkShade00B){ colorPalette = BG; }
+Tile(FgWallDarkShade00C){ colorPalette = BG; }
+Tile(FgWallDarkShade00D){ colorPalette = BG; }
+Tile(FgWallDarkShade00E){ colorPalette = BG; }
+Tile(FgWallDarkShade00F){ colorPalette = BG; }
+Tile(FgWallDarkShade00G){ colorPalette = BG; }
+Tile(FgWallDarkShade00H){ colorPalette = BG; }
+Tile(FgWallDarkShade00I){ colorPalette = BG; }
+Tile(FgWallDarkShadeOutline00A){ colorPalette = BG; }
+Tile(FgWallDarkShadeOutline00B){ colorPalette = BG; }
+Tile(FgWallDarkShadeOutline00C){ colorPalette = BG; }
+Tile(FgWallDarkShadeOutline00E){ colorPalette = BG; }
+Tile(FgWallDarkShadeOutline00F){ colorPalette = BG; }
+Tile(FgWallDarkShadeOutline00G){ colorPalette = BG; }
+Tile(FgWallLightBigRound00A){ colorPalette = BG; }
+Tile(FgWallLightOutline00A){ colorPalette = BG; }
+Tile(FgWallLightPixel00A){ colorPalette = BG; }
+Tile(FgWallLightRound00A){ colorPalette = BG; }
+Tile(FgWallLightShade00A){ colorPalette = BG; }
+Tile(FgWallLightShade00B){ colorPalette = BG; }
+Tile(FgWallLightShade00C){ colorPalette = BG; }
+Tile(FgWallLightShade00D){ colorPalette = BG; }
+Tile(FgWallLightShade00E){ colorPalette = BG; }
+Tile(FgWallLightShade00F){ colorPalette = BG; }
+Tile(FgWallLightShade00G){ colorPalette = BG; }
+Tile(FgWallLightShade00H){ colorPalette = BG; }
+Tile(FgWallLightShade00I){ colorPalette = BG; }
+Tile(FgWallLightShadeOutline00A){ colorPalette = BG; }
+Tile(FgWallLightShadeOutline00B){ colorPalette = BG; }
+Tile(FgWallLightShadeOutline00C){ colorPalette = BG; }
+Tile(FgWallLightShadeOutline00E){ colorPalette = BG; }
+Tile(FgWallLightShadeOutline00F){ colorPalette = BG; }
+Tile(FgWallLightShadeOutline00G){ colorPalette = BG; }
+Tile(FgWallMidBigRound00A){ colorPalette = BG; }
+Tile(FgWallMidOutline00A){ colorPalette = BG; }
+Tile(FgWallMidPixel00A){ colorPalette = BG; }
+Tile(FgWallMidRound00A){ colorPalette = BG; }
+Tile(FgWallMidShade00A){ colorPalette = BG; }
+Tile(FgWallMidShade00B){ colorPalette = BG; }
+Tile(FgWallMidShade00C){ colorPalette = BG; }
+Tile(FgWallMidShade00D){ colorPalette = BG; }
+Tile(FgWallMidShade00E){ colorPalette = BG; }
+Tile(FgWallMidShade00F){ colorPalette = BG; }
+Tile(FgWallMidShade00G){ colorPalette = BG; }
+Tile(FgWallMidShade00H){ colorPalette = BG; }
+Tile(FgWallMidShade00I){ colorPalette = BG; }
+Tile(FgWallMidShadeOutline00A){ colorPalette = BG; }
+Tile(FgWallMidShadeOutline00B){ colorPalette = BG; }
+Tile(FgWallMidShadeOutline00C){ colorPalette = BG; }
+Tile(FgWallMidShadeOutline00E){ colorPalette = BG; }
+Tile(FgWallMidShadeOutline00F){ colorPalette = BG; }
+Tile(FgWallMidShadeOutline00G){ colorPalette = BG; }
+Tile(TransparentWater00A)
+{
+	isCloud = true;
+	cloudRotation = 0;
+	material = water;
+	sizeable = H;
+	projectileHit = false;
+	fixture()
+	{
+		collisionGroup = none;
+		blockFire = false;
+	}
+	animation(TransparentWater00A)
+	{
+		frameTimes = 100;
+		width = 16;
+		isSynced = true;
+	}
+}
+Tile(TransparentWater00B)
+{
+	material = water;
+	sizeable = D;
+	projectileHit = false;
+	fixture()
+	{
+		collisionGroup = none;
+		blockFire = false;
+	}
+	animation(TransparentWater00B)
+	{
+		frameTimes = 100;
+		width = 16;
+		isSynced = true;
+	}
+}

@@ -1,0 +1,39 @@
+name: Build
+
+on:
+  push:
+    branches: ["master"]
+    paths-ignore:
+      - "*.md"
+      - ".gitignore"
+      - ".editorconfig"
+  pull_request:
+    branches: ["*"]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        architecture: [x64]
+        configuration: [Debug, Release]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Restore NuGet
+        run: msbuild -p:RestorePackagesConfig=true -t:restore
+
+      - name: Build Solution
+        run: msbuild $env:Solution_Name /t:build /p:configuration=${{ matrix.configuration }}
+
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: SFR ${{ matrix.configuration }}
+          path: SFR\bin\x86\${{ matrix.configuration }}\SFR.exe
+          compression-level: 9
